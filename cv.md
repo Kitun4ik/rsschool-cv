@@ -1,11 +1,13 @@
 
 ***
 ## **Maksim Kitun** ##
+
 ***
 ### **Contacts** ###
 * **Location:** _Mozyr, Belarus_
 * **Phone:** _+375298314055_
 * **E-mail:** _maksimkitun@mail.ru_
+* **GitHub:** [Kitun4ik](https://github.com/Kitun4ik/rsschool-cv/tree/gh-pages)
 
 ***
 ### **A bout Me** ###
@@ -30,6 +32,7 @@ function multiply(a, b) {
   return a*b;
 }
 ```
+
 ***
 ### **Experience** ###
 no experience in development
