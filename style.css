@@ -1,15 +1,26 @@
-.header{
-  width: 100%;
-  height: 20%;
-  background-color: #cc8585;
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.main{
-  width: 100%;
-  height: 60%;
-  background-color: #ff0000; 
+.h2{
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
 }
-.footer{
-  width: 100%;
-  height: 20%;
-  background-color: #7e5858;
+.font{
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+.margin{
+  margin: 0 15px;
+}
+.font1{
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-size: 20px;
 }
