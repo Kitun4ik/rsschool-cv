@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: Pushster;
+  src: url(assets/fonts/Pushster/Pushster-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+.font-family {
+  background-color: #ececc6a6;
+}
+.main {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.section-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-family: 'Pushster', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  font-variant: inherit;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+img {
+  max-width: 20%;
+  overflow: hidden;
+}
+.icon {
+  width: 25px;
+  margin-right: 10px;
+}
+.text-style {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+.margin {
+  margin-left: 40px; 
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+
+}
+.body {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.icon-footer {
+  width: 250px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.footer {
+  font-family: 'Pushster', sans-serif;
+}
