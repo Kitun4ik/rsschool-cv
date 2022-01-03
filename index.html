@@ -3,50 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="asset/favicon.ico">
+    <title>cv</title>
 </head>
-<body>
-    <div>
-        <div>
-            <h2 class="h2">Maksim Kitun</h2>
-            <img src="D:\vs code\rs_school\rJr0CxSjTwQ.jpg" alt="Maksim Kitun" width="150px" height="260px">
+<body class="font-family">
+    <header>
+        <div class="conteiner">
+            <nav>
+                <ul class="nav">
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#qualities">Qualities</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english" >English</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="margin">
-            <p><span class="font">Location:</span> Mozyr, Belarus</p>
-            <p><span class="font">Phone:</span> +375298314055</p>
-            <p><span class="font">E-mail:</span> maksimkitun@mail.ru</p>
-            <p><span class="font">GitHub:</span><a href="https://github.com/Kitun4ik">Kitun4ik</a></p>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section id="profile">
+            <div class="section-title">
+                    <img src="./assets/img/Maksim Kitun.jpg" alt="Maksim Kitun">
+                <div class="margin" id="contacts">
+                <div><h1>Maksim Kitun</h1></div>
+                <div><img class="icon" src="./assets/favicon/Location.ico">Mozyr, Belarus</div>
+                <div><img class="icon" src="./assets/favicon/phone-call.ico">+375298314055</div>
+                <div><a href="https://mail.ru/"><img class="icon" src="./assets/favicon/E-mail.ico"> maksimkitun@mail.ru</a></div>
+                <div><a href="https://github.com/Kitun4ik"><img class="icon" src="./assets/favicon/github-sign.ico"> Kitun4ik</a></div>
+                </div>
+            </div>
+            </section>
+            <section id="summary">
+                <p><h2>A bout Me</h2></p>
+                <p class="text-style">I am 27 years old and have a degree in forestry engineer.
+                My goal is to gain knowledge in Front-end development.</p>
+            </section>
+            <section id="qualities"><h2>Personal qualities</h2>
+                <ul>
+                    <li>impressive</li>
+                    <li>benevolent</li>
+                    <li>sociable</li>
+                    <li>able to work in a team</li>
+                </ul>
+            </section>
+            <section id="code">
+                <p><h2>Code</h2></p>
+                <p><code>
+                    function multiply(a, b) {<br>
+                        return a*b;<br>
+                      } <br>
+                </code>
+                </p>
+            </section>
+            <section id="experience">
+                <p><h2>Experience</h2></p>
+                <p>no experience in development</p>
+            </section>
+            <section" id="projects">
+                <p><h2>Projects</h2></p>
+                <p>No projects. Studying at RS School Java Script / Frontend "stage 0"</p>
+            </section>
+            <section id="education">
+                <h2>Education:</h2>
+                <p>University: F. Skorina Gomel State University, forestry engineer</p>
+            </section>
+            <section id="english">
+                <p><h2>English:</h2> A2</p>
+            </section>
         </div>
-    </div>
-    <div>
-        <div>
-            <p class="font1"> About Me</p>
-            <p>I am 27 years old and have a degree in forestry engineer.</p>
-            <p>My goal is to gain knowledge in Front-end development.</p>     
-        </div>
-        <div>
-            <p class="font1">Personal qualities:</p>
-            <ul>
-                <li>impressive</li>
-                <li>benevolent</li>
-                <li>sociable</li>
-                <li>able to work in a team</li>
-            </ul>
-        </div>
-    </div>
-    <div>
-        <p class="font1">Education:</p>
-        <p> University F. Skorina Gomel State University, forestry engineer</p> 
-        </div>
-        <div>
-            <p><span class="font1">English:</span> A2</p>
-        </div>
-    <div>
-        <span class="font1">Experience:</span>
-        <p>no experience in development</p>
-        <P>Studying at RS School Java Script / Frontend “stage 0”</P>
-    </div>
+
+    </main>
+    <footer class="footer">
+        <body>
+            <div class="body">
+                <a href="https://github.com/Kitun4ik"><img class="icon-footer" src="./assets/favicon/github-sign.ico"></a>
+                <p><h2>2022</h2></p>
+                <a href="https://rs.school/"><img class="icon-footer" src="./assets/favicon/RSSchool.ico"></a>
+            </div>
+
+        </body>
+
+    </footer>
 </body>
 </html>
